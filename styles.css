@@ -26,8 +26,8 @@ header.nav{
 .brand h1{font-size:1.05rem;margin:0;font-weight:700;letter-spacing:.2px}
 nav ul{display:flex;gap:1rem;list-style:none;margin:0;padding:0}
 nav a{padding:.4rem .6rem;border-radius:10px}
-nav a:hover,nav a.active{background:var(--card)}
-.hero{padding:72px 0;background:linear-gradient(180deg,#f0f6ff,transparent)}
+nav a:hover{background:var(--card)}
+.hero{padding:72px 0;background:linear-gradient(180deg,#f8fbff,transparent)}
 .hero h2{font-size:2.2rem;line-height:1.2;margin:0 0 .5rem 0}
 .hero p{color:var(--muted);margin:0}
 .grid{display:grid;gap:24px}
@@ -45,18 +45,3 @@ footer{padding:40px 0;border-top:1px solid var(--border);color:var(--muted)}
 .two-col{columns:2;column-gap:24px}
 @media(max-width:700px){.two-col{columns:1}}
 code{background:#0f172a0d;padding:.15rem .35rem;border-radius:6px}
-
-/* Dark mode */
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg:#0b1220;
-    --fg:#e6eefc;
-    --muted:#9fb0c9;
-    --card:#0f172a;
-    --border:#1f2a44;
-    --accent:#7aa2ff;
-    --accent-2:#68d0ff;
-    --shadow:0 10px 30px rgba(0,0,0,.35);
-  }
-  .logo{box-shadow:none}
-}
