@@ -80,3 +80,18 @@ code{background:#0f172a0d;padding:.15rem .35rem;border-radius:6px}
   .hero-left{max-width:280px; margin:0 auto}
   .hero{padding:40px 0}
 }
+
+/* Brand / Site title */
+.site-title {
+  font-size: 1.5rem;      /* bigger name */
+  font-weight: 800;
+  margin: 0;
+  color: var(--fg);
+  letter-spacing: 0.2px;
+}
+
+/* Remove leftover logo spacing */
+.brand {
+  display: flex;
+  align-items: center;
+}
