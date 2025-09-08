@@ -43,29 +43,29 @@
     </div>
   </header>
 
- <section class="hero">
-  <div class="container grid" style="align-items:center;gap:40px;">
-    
-    <!-- Left column: Foto -->
-    <div style="flex:0 0 280px;max-width:280px;">
-      <img src="/assets/photo-andre-tomano.jpg" 
-           alt="André Tomano" 
-           style="width:100%;height:auto;object-fit:cover;border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,0.15);" />
+<section class="hero">
+  <div class="container hero-grid">
+    <!-- Left: photo -->
+    <div class="hero-left">
+      <img src="/assets/photo-andre-tomano.jpg"
+           alt="André Tomano"
+           class="hero-photo" />
     </div>
 
-    <!-- Right column: Text -->
-    <div>
+    <!-- Right: title + buttons + interests -->
+    <div class="hero-right">
       <div class="kicker">Marketing–Finance</div>
       <h2>PhD Candidate, Maastricht University</h2>
       <p>School of Business & Economics · Department of Finance</p>
-      <div style="margin-top:1rem;">
+
+      <div class="btn-row">
         <a class="btn" href="/assets/Andre-Tomano-CV-2025-05.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
-        <a class="btn secondary" href="#research" style="margin-left:.5rem">Explore research</a>
+        <a class="btn secondary" href="#research">Explore research</a>
       </div>
 
-      <div class="card" style="margin-top:30px;">
+      <div class="card hero-interests">
         <h3>Research interests</h3>
-        <div>
+        <div class="chip-wrap">
           <span class="tag">Marketing–Finance Interface</span>
           <span class="tag">Marketing Strategy</span>
           <span class="tag">Marketing Excellence</span>
@@ -73,7 +73,7 @@
           <span class="tag">Computer Assisted Text Analysis</span>
           <span class="tag">Analyst & Investor Relationships</span>
         </div>
-        <p style="margin-top:.75rem;color:var(--muted)">
+        <p class="muted" style="margin-top:.75rem">
           I study how marketing actions / assets drive firm value. I look at different ways on how to conceptualize Marketing Excellence.
         </p>
       </div>
