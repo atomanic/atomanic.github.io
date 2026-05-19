@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>André Tomano — Marketing–Finance</title>
-  <meta name="description" content="André Tomano — PhD Candidate in Marketing–Finance at Maastricht University. Research: marketing capabilities, investor relations, and firm value.">
+  <meta name="description" content="André Tomano — PhD Candidate in Marketing–Finance at Maastricht University. Research on pricing power, marketing capabilities, analyst & investor relationships, and firm value.">
   <link rel="canonical" href="https://atomano.com/">
   <link rel="stylesheet" href="/styles.css">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -25,13 +25,17 @@
     "@type": "Person",
     "name": "André Tomano",
     "url": "https://atomano.com",
-    "image": "https://atomano.com/assets/photo-andre-tomano.jpg",
-    "jobTitle": "PhD Candidate (Job Market 2025), Marketing–Finance",
-    "affiliation": {"@type":"CollegeOrUniversity","name":"Maastricht University - School of Business and Economics"},
+    "image": "https://atomano.com/assets/photo-andre-tomano-2.png",
+    "jobTitle": "PhD Candidate in Marketing–Finance",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Maastricht University — School of Business and Economics"
+    },
     "email": "andre.tomano@maastrichtuniversity.nl",
     "sameAs": [
       "https://github.com/atomanic",
-      "https://mfx-um.com/"
+      "https://mfx-um.com/people/andr%C3%A9-tomano",
+      "https://www.linkedin.com/in/andretomano"
     ]
   }
   </script>
@@ -40,11 +44,12 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="nav">
     <div class="container nav-inner">
-<div class="brand">
-  <h1 class="site-title">André Tomano</h1>
-</div>
+      <div class="brand">
+        <img src="/favicon.svg" class="logo" alt="" width="28" height="28">
+        <span class="site-title">André Tomano</span>
+      </div>
       <nav aria-label="Primary">
-        <ul>
+        <ul id="nav-list">
           <li><a href="#about">About</a></li>
           <li><a href="#research">Research</a></li>
           <li><a href="#teaching">Teaching</a></li>
@@ -53,147 +58,229 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" type="button">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
+
   <main id="main">
-
-<section id="about" class="hero">
-  <div class="container hero-grid">
-    <!-- Left: photo -->
-    <div class="hero-left">
-      <img src="/assets/photo-andre-tomano-2.png"
-           alt="Portrait of André Tomano"
-           class="hero-photo"
-           width="360" height="360"
-           fetchpriority="high" />
-    </div>
-
-    <!-- Right: title + buttons + interests -->
-    <div class="hero-right">
-      <div class="kicker">Marketing–Finance</div>
-      <h2>PhD Candidate, Maastricht University</h2>
-      <p>School of Business & Economics · Department of Finance</p>
-
-      <div class="btn-row">
-        <a class="btn" href="/assets/Andre-Tomano-CV-2025-05.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
-        <a class="btn secondary" href="#research">Explore research</a>
-      </div>
-
-      <div class="card hero-interests">
-        <h3>Research interests</h3>
-        <div class="chip-wrap">
-          <span class="tag">Marketing–Finance Interface</span>
-          <span class="tag">Marketing Strategy</span>
-          <span class="tag">Marketing Excellence</span>
-          <span class="tag">Market-Based Assets</span>
-          <span class="tag">Computer Assisted Text Analysis</span>
-          <span class="tag">Analyst & Investor Relationships</span>
+    <section id="about" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <img src="/assets/photo-andre-tomano-2.png"
+               alt="Portrait of André Tomano"
+               class="hero-photo"
+               width="360" height="360"
+               fetchpriority="high">
         </div>
-        <p class="muted" style="margin-top:.75rem">
-          I study how marketing actions / assets drive firm value. I look at different ways on how to conceptualize Marketing Excellence.
-        </p>
+        <div class="hero-right">
+          <div class="kicker">Marketing–Finance</div>
+          <h2>PhD Candidate, Maastricht University</h2>
+          <p>School of Business &amp; Economics · Departments of Finance &amp; Marketing &amp; Supply Chain Management</p>
+          <p class="muted" style="margin-top:.75rem">Co-Director, Marketing–Finance Exchange Center of Excellence (MFX COE)</p>
+          <div class="btn-row">
+            <a class="btn" href="/assets/Andre-Tomano-CV-2026-05.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+            <a class="btn secondary" href="#research">Explore research</a>
+          </div>
+          <div class="card hero-interests">
+            <h3>Research interests</h3>
+            <div class="chip-wrap">
+              <span class="tag">Marketing–Finance Interface</span>
+              <span class="tag">Marketing Strategy</span>
+              <span class="tag">Marketing Excellence</span>
+              <span class="tag">Analyst &amp; Investor Behavior</span>
+              <span class="tag">NLP</span>
+              <span class="tag">Synthetic Data</span>
+            </div>
+            <p class="muted" style="margin-top:.75rem">
+              I study how marketing capabilities, investor relations, and managerial language shape firm value — using survey data, earnings calls, and text-based measures.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-  <section id="research" class="container">
-    <h3>Job market paper</h3>
-    <div class="card">
-      <strong>Market Your Share! How Marketing Capability and its Communication Shape Analyst & Investor Relationships</strong>
-      <p style="color:var(--muted)">
-        Assessing the value of the intangible asset base that drives firm value is a pivotal task for financial analysts and investors. Firms have therefore created specialized investor relations (IR) teams that maintain contact with and inform these stakeholders about the firms’ performance. This study investigates the relationship a firm maintains with
-        its analyst and investor base through the market-based asset Analyst & Investor Relationships (AIR). Using a comprehensive survey-based measure of AIR quality across an unbalanced panel of 1,159 U.S. firms from 2015 to 2020, findings suggest that this asset contributes positively to firm value, measured by Total q. Furthermore, drawing
-        on resource-based theory, the study explores marketing capabilities (MC) as a critical antecedent of AIR. The findings indicate that firms with higher MC exhibit stronger AIR. Additionally, the study examines how the communication of MC in quarterly earnings calls further enhances the value of AIR. Findings suggest that a firm’s ability
-        to effectively “market its shares” to analysts and investors strengthens relationship quality. This study contributes to the marketing–finance literature by demonstrating the positive impact of MC on a firm’s financial relationships, providing deeper insights into the underlying mechanisms through which MC contributes to firm value.
-      </p>
-      <div class="btn-row">
-        <a class="btn secondary" href="/publications.html">View details</a>
-        <a class="btn secondary" href="/assets/Tomano2025_MarketYourShare.bib" download>BibTeX</a>
+    <section id="research">
+      <div class="container">
+        <h3>Working papers</h3>
+
+        <article class="card">
+          <h4>Talk the Walk: A New Measurement of Pricing Power Using Top Management Team’s Language</h4>
+          <p class="muted">With Niels Holtrop, Joost M.E. Pennings, Thomas Post, and Hauke Wetzel</p>
+          <p class="muted">
+            Pricing power is a fundamental driver of long-term value, yet investors lack timely tools to assess it. We construct a continuous, firm-level measure from earnings call transcripts using dependency parsing, negation handling, and tense-based decomposition across prepared remarks and Q&amp;A. Applied to 74,972 calls (4,300 U.S. firms, 2018–2024), the measure reveals systematic gaps between forward- and backward-looking discourse and between presentation and Q&amp;A sections.
+          </p>
+          <div class="btn-row">
+            <a class="btn secondary" href="/publications.html#talk-the-walk">View details</a>
+            <a class="btn secondary" href="/assets/Tomano2026_TalkTheWalk.bib" download>BibTeX</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4>Market Your Share! How Marketing Capability and its Communication Drive Firm Value through Analyst &amp; Investor Relationships</h4>
+          <p class="muted">With Niels Holtrop, Joost M.E. Pennings, and Thomas Post</p>
+          <p class="muted">
+            Using survey-based Analyst &amp; Investor Relationships (AIR) across 1,159 U.S. firms (2015–2020), we show AIR contributes positively to Total q. Marketing capabilities strengthen AIR, and communicating MC in earnings calls amplifies this link. Moderation analyses reveal context-dependent pathways through analyst coverage and institutional ownership.
+          </p>
+          <div class="btn-row">
+            <a class="btn secondary" href="/publications.html#market-your-share">View details</a>
+            <a class="btn secondary" href="/assets/Tomano2025_MarketYourShare.bib" download>BibTeX</a>
+          </div>
+        </article>
+
+        <div class="section-sub">
+          <h3>Research visit</h3>
+          <div class="card">
+            <ul class="list">
+              <li><strong>Visiting PhD Researcher</strong>, School of Marketing, UNSW Sydney, Australia (Jan–Apr 2026) — hosted by Prof. Hauke Wetzel</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-sub">
+          <h3>Industry research partnership</h3>
+          <div class="card">
+            <p><strong>Evidenza.AI</strong> (Dec 2025–present)</p>
+            <ul class="list">
+              <li>Lead researcher on an 18-month externally funded collaboration (€105,000) between MFX COE and Evidenza.AI</li>
+              <li>Focus: synthetic measurement and validation of pricing power constructs</li>
+              <li>Responsible for initiating, negotiating, and leading the partnership</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-sub">
+          <h3>Research community service</h3>
+          <div class="card">
+            <ul class="list">
+              <li><strong>Co-Director</strong>, Marketing–Finance Exchange Center of Excellence (MFX COE) (2022–present)</li>
+              <li><strong>Member</strong>, MSCM Department PhD Social Committee (2023–present)</li>
+              <li><strong>Finance Department PhD Representative</strong>, GSBE PhD Committee (2023–2025)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-sub">
+          <h3>Education</h3>
+          <div class="card">
+            <ul class="list">
+              <li><strong>PhD Candidate in Marketing–Finance</strong>, Maastricht University — 2022–present</li>
+              <li><strong>M.Sc. International Business: Marketing–Finance</strong>, Maastricht University — 2011–2012</li>
+              <li><strong>B.A. Business &amp; Economics</strong>, FAU Erlangen–Nuremberg — 2007–2011</li>
+              <li><strong>Erasmus Exchange</strong>, University of Groningen — 2009–2010</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-sub">
+          <h3>Industry experience</h3>
+          <div class="card two-col">
+            <ul class="list">
+              <li><strong>DWS Group</strong>, Senior Coverage Specialist – Institutional (2017–2022)</li>
+              <li><strong>DWS Group</strong>, Senior RFP Writer (2014–2017)</li>
+              <li><strong>EY</strong>, Consultant – Financial &amp; Accounting Advisory (2014)</li>
+            </ul>
+            <ul class="list">
+              <li><strong>ALDI Süd</strong>, Regional Sales Management Trainee (2013–2014)</li>
+              <li><strong>DWS Group</strong>, RFP Writer &amp; Sales Support Intern (2012–2013)</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div style="margin-top:24px">
-      <h3>Education</h3>
-     <div class="card">
-  <ul class="list">
-    <li><strong>PhD Candidate in Marketing–Finance</strong>, Maastricht University — 2022–present</li>
-    <li><strong>M.Sc. International Business: Marketing–Finance</strong>, Maastricht University — 2011–2012</li>
-    <li><strong>B.A. Business & Economics</strong>, FAU Erlangen–Nuremberg — 2007–2011</li>
-    <li><strong>Erasmus Exchange</strong>, University of Groningen — 2009–2010</li>
-  </ul>
-</div>
-    </div>
-
-    <div style="margin-top:24px">
-      <h3>Industry experience</h3>
-   <div class="card">
-  <ul class="list">
-    <li><strong>DWS Group</strong>, Senior Coverage Specialist – Institutional (2017–2022)</li>
-    <li><strong>DWS Group</strong>, Senior RFP Writer (2014–2017)</li>
-    <li><strong>EY</strong>, Consultant – Financial & Accounting Advisory (2014)</li>
-    <li><strong>ALDI Süd</strong>, Regional Sales Management Trainee (2013–2014)</li>
-  </ul>
-</div>
-    </div>
-  </section>
-
-  <section id="teaching">
-    <div class="container">
-      <h3>Teaching & Supervision</h3>
-      <div class="card">
-        <strong>Teaching Assistant, SBE Maastricht (2022–present)</strong>
-        <ul class="list">
-          <li>Academic Skills & Competences (Pre-Master)</li>
-          <li>Entrepreneurial Finance (MSc)</li>
-          <li>Sustainable Financial Management & Policy (BSc)</li>
-          <li>Shareholder Value & Market-Based Assets (MSc)</li>
-        </ul>
-        <hr style="border:none;border-top:1px solid var(--border);margin:1rem 0">
-        <strong>Master thesis supervision</strong>
-        <ul class="list">
-          <li>2022/2023: 2 students</li>
-          <li>2023/2024: 6 students</li>
-          <li>2024/2025: 4 students</li>
-        </ul>
+    <section id="teaching">
+      <div class="container">
+        <h3>Teaching &amp; supervision</h3>
+        <div class="card">
+          <p><strong>Teaching Assistant, SBE Maastricht</strong> (2022–present)</p>
+          <ul class="list">
+            <li>Academic Skills and Competences (Pre-Master)</li>
+            <li>Entrepreneurial Finance (MSc)</li>
+            <li>Shareholder Value &amp; Market-Based Assets (MSc)</li>
+            <li>Sustainable Financial Management and Policy (BSc)</li>
+          </ul>
+          <hr style="border:none;border-top:1px solid var(--border);margin:1rem 0">
+          <p><strong>Thesis supervision</strong></p>
+          <ul class="list">
+            <li>Master thesis (2026/2027): 1 student</li>
+            <li>Master thesis (2025/2026): 5 students</li>
+            <li>Bachelor thesis (2025/2026): 29 students</li>
+            <li>Master thesis (2024/2025): 4 students</li>
+            <li>Master thesis (2023/2024): 6 students</li>
+            <li>Master thesis (2022/2023): 2 students</li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="talks">
-    <div class="container">
-      <h3>Conference presentations</h3>
-      <div class="card">
-        <ul class="list">
-          <li>ISMS Marketing Science, Jun 27–29, 2024 — Sydney, AU</li>
-          <li>EMAC Annual Conference, May 29–31, 2024 — Bucharest, RO</li>
-          <li>EMAC Doctoral Colloquium, May 26–28, 2024 — Bucharest, RO</li>
-          <li>Marketing Strategy Meets Wall Street, May 22–24, 2024 — Cologne, DE</li>
-          <li>Groningen Invitational Research Camp, Apr 25–26, 2024 — Groningen, NL</li>
-        </ul>
+    <section id="talks">
+      <div class="container">
+        <h3>Conference presentations</h3>
+        <div class="card">
+          <ul class="list">
+            <li><strong>Marketing Analytics Symposium Sydney</strong>, Feb 23–24, 2026 — Sydney, AU — <em>Talk the Walk! A New Measurement of Pricing Power Using Top Management Team’s Language</em></li>
+            <li><strong>ISMS Marketing Science</strong>, Jun 27–29, 2024 — Sydney, AU — <em>Market Your Share!</em></li>
+            <li><strong>EMAC Annual Conference</strong>, May 29–31, 2024 — Bucharest, RO — <em>Market Your Share!</em></li>
+            <li><strong>EMAC Doctoral Colloquium</strong>, May 26–28, 2024 — Bucharest, RO — <em>Market Your Share!</em></li>
+            <li><strong>Marketing Strategy Meets Wall Street</strong>, May 22–24, 2024 — Cologne, DE — <em>Market Your Share!</em></li>
+            <li><strong>Groningen Invitational Research Camp</strong>, Apr 25–26, 2024 — Groningen, NL — <em>Market Your Share!</em></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact">
-    <div class="container">
-      <h3>Contact</h3>
-      <div class="card">
-        <p><strong>Email:</strong> <a href="mailto:andre.tomano@maastrichtuniversity.nl">andre.tomano@maastrichtuniversity.nl</a></p>
-        <p><strong>Affiliation:</strong> Maastricht University — School of Business & Economics, Department of Finance</p>
-        <p>
-          <a class="btn secondary" href="https://github.com/atomanic" target="_blank" rel="noopener">GitHub</a>
-          <a class="btn secondary" href="https://mfx-um.com/people/andr%C3%A9-tomano" target="_blank" rel="noopener" style="margin-left:.5rem">MFX COE</a>
-        </p>
+    <section id="contact">
+      <div class="container">
+        <h3>Contact</h3>
+        <div class="card">
+          <p><strong>Email:</strong> <a href="mailto:andre.tomano@maastrichtuniversity.nl">andre.tomano@maastrichtuniversity.nl</a></p>
+          <p><strong>Affiliation:</strong> Maastricht University — SBE, Departments of Finance &amp; MSCM</p>
+          <p class="muted">Tongersestraat 53, 6211 LM Maastricht, Netherlands</p>
+          <div class="contact-links">
+            <a class="btn secondary" href="https://github.com/atomanic" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn secondary" href="https://mfx-um.com/people/andr%C3%A9-tomano" target="_blank" rel="noopener">MFX COE</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/andretomano" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-
+    </section>
   </main>
+
   <footer>
     <div class="container">
-      <p>© 2025 André Tomano · Maastricht, Netherlands · <a href="/assets/Andre-Tomano-CV-2025-05.pdf" target="_blank" rel="noopener">CV</a></p>
+      <p>© 2026 André Tomano · Maastricht, Netherlands · <a href="/assets/Andre-Tomano-CV-2026-05.pdf" target="_blank" rel="noopener">CV</a></p>
     </div>
   </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const navList = document.getElementById('nav-list');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      navList.classList.toggle('open');
+    });
+    navList.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navList.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a[href^="#"]');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(a => a.classList.remove('active'));
+          const active = document.querySelector(`nav a[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    sections.forEach(s => observer.observe(s));
+  </script>
 </body>
 </html>
