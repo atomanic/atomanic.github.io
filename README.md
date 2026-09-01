@@ -39,14 +39,14 @@ Optional (IPv6): AAAA records (add all four)
 
 - `index.html` — main page
 - `styles.css` — site styles (no frameworks, fast and lightweight)
-- `assets/Andre-Tomano-CV-2026-05.pdf` — current CV (linked from the homepage)
-- `publications.html` — working papers with BibTeX
+- `assets/Andre-Tomano-CV-2026-09.pdf` — current CV (linked from the homepage)
+- `publications.html` — working papers
 - `404.html` — not-found page
 - `CNAME` — tells GitHub Pages the custom domain
 
 ## Edit content
 
-Update `index.html` for the homepage and `publications.html` for paper details. BibTeX files live in `assets/`.
+Update `index.html` for the homepage and `publications.html` for paper details.
 
 ## Local preview
 
